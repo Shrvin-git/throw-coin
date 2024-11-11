@@ -1,0 +1,92 @@
+   /* استایل‌ها برای ظاهر جذاب و کاربرپسند */
+   body {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 100vh;
+       background-color: #f0f8ff;
+       font-family: Arial, sans-serif;
+       direction: rtl;
+       margin: 0;
+   }
+
+   .container {
+       text-align: center;
+       padding: 20px;
+       border-radius: 15px;
+       box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+       background-color: #ffffff;
+       width: 300px;
+   }
+
+   .title {
+       font-size: 24px;
+       color: #333;
+       margin-bottom: 15px;
+   }
+
+   .coin {
+       font-size: 60px;
+       margin: 20px 0;
+   }
+
+   .result {
+       font-size: 20px;
+       font-weight: bold;
+       color: #333;
+       margin-top: 15px;
+   }
+
+   .button {
+       background-color: #4CAF50;
+       color: white;
+       border: none;
+       padding: 10px 20px;
+       font-size: 16px;
+       border-radius: 5px;
+       cursor: pointer;
+       transition: background-color 0.3s;
+   }
+
+   .button:hover {
+       background-color: #45a049;
+   }
+
+
+   .btn_wrapper {
+       margin-top: 5px;
+   }
+
+   .btn_wrapper button {
+       width: 70px;
+       height: 35px;
+       background-color: rgb(102, 102, 102);
+       border: none;
+       outline: none;
+       font-weight: bold;
+       border-radius: 4px;
+       box-shadow: 0 0 10px rgb(65, 65, 65);
+       color: antiquewhite;
+       cursor: pointer;
+   }
+
+   .result_throw_coin {
+       font-size: 22px;
+       font-weight: bold;
+       color: green;
+   }
+
+
+   .result_throw_coin_lost {
+       font-size: 22px;
+       font-weight: bold;
+       color: red;
+   }
+
+   .user_choice {
+       padding: 0;
+       margin: 10px 0;
+       font-size: 22px;
+       font-weight: bold;
+       color: red;
+   }
