@@ -84,9 +84,17 @@
    }
 
    .user_choice {
-       padding: 0;
-       margin: 10px 0;
+       padding: 4px 0;
        font-size: 22px;
        font-weight: bold;
-       color: red;
+       color: #24c301;
+       background-color: #bdbdbd3d;
+       border-radius: 8px;
+       width: 49%;
+       text-align: center;
+       margin: 10px auto;
+       opacity: 0;
+       visibility: hidden;
+       transition: all 350ms linear;
+       box-shadow: 0 0 10px #467048;
    }
